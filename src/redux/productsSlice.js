@@ -1,0 +1,38 @@
+import { createSlice } from '@reduxjs/toolkit'
+
+export const productsSlice = createSlice({
+    name: 'counter',
+    initialState: {
+        items: [
+            { code: '1', price: 70.32, title: 'Jeans', numberInStock: 10, color: ['Black', 'Grey'], category: 'Jeans', srcs: ["https://www.gap.com/webcontent/0020/477/303/cn20477303.jpg", "https://www.gap.com/webcontent/0020/477/309/cn20477309.jpg", "https://www.gap.com/webcontent/0020/456/452/cn20456452.jpg", "https://www.gap.com/webcontent/0020/456/448/cn20456448.jpg", "https://www.gap.com/webcontent/0020/604/715/cn20604715.jpg"], },
+            { code: '2', price: 25.00, title: 'Khakis', numberInStock: 6, color: ['Brown'], category: 'Pants', srcs: ["https://www.gap.com/webcontent/0028/153/049/cn28153049.jpg", "https://www.gap.com/webcontent/0028/153/022/cn28153022.jpg", "https://www.gap.com/webcontent/0028/153/035/cn28153035.jpg", "https://www.gap.com/webcontent/0028/153/046/cn28153046.jpg"] },
+            { code: '3', price: 44.50, title: 'Corduroy Joggers', numberInStock: 9, color: ['Green', 'Grey'], category: 'Pants', srcs: ["https://www.gap.com/webcontent/0027/687/593/cn27687593.jpg", "https://www.gap.com/webcontent/0027/687/580/cn27687580.jpg", "https://www.gap.com/webcontent/0027/687/601/cn27687601.jpg", "https://www.gap.com/webcontent/0027/687/585/cn27687585.jpg"] },
+            { code: '4', price: 39.99, title: 'Fleece Pants', numberInStock: 8, color: ['Black', 'Grey'], category: 'Pants', srcs: ["https://www.gap.com/webcontent/0027/276/836/cn27276836.jpg", "https://www.gap.com/webcontent/0027/194/607/cn27194607.jpg", "https://www.gap.com/webcontent/0027/194/799/cn27194799.jpg", "https://www.gap.com/webcontent/0027/194/836/cn27194836.jpg"] },
+            { code: '5', price: 60.00, title: 'Hoodie', numberInStock: 10, color: ['Pink', 'White'], category: 'Shirts', srcs: ["https://www.gap.com/webcontent/0028/391/220/cn28391220.jpg", "https://www.gap.com/webcontent/0028/391/207/cn28391207.jpg", "https://www.gap.com/webcontent/0028/391/228/cn28391228.jpg", "https://www.gap.com/webcontent/0028/391/211/cn28391211.jpg", "https://www.gap.com/webcontent/0028/466/671/cn28466671.jpg", "https://www.gap.com/webcontent/0028/466/661/cn28466661.jpg"] },
+            { code: '6', price: 49.99, title: 'Denim Shirt', numberInStock: 10, color: ['Blue'], category: 'Shirts', srcs: ["https://www.gap.com/webcontent/0028/466/669/cn28466669.jpg", "https://www.gap.com/webcontent/0028/466/624/cn28466624.jpg", "https://www.gap.com/webcontent/0028/466/671/cn28466671.jpg", "https://www.gap.com/webcontent/0028/466/661/cn28466661.jpg"] },
+            { code: '7', price: 55.00, title: 'Hoodie', numberInStock: 10, color: ['Blue', 'Green'], category: 'Shirts', srcs: ["https://www.gap.com/webcontent/0028/346/874/cn28346874.jpg", "https://www.gap.com/webcontent/0028/347/116/cn28347116.jpg", "https://www.gap.com/webcontent/0028/346/877/cn28346877.jpg", "https://www.gap.com/webcontent/0028/375/972/cn28375972.jpg"] },
+            { code: '8', price: 50.32, title: 'Linen-Cotton Shirt', numberInStock: 10, color: ['Blue'], category: 'Shirts', srcs: ["https://www.gap.com/webcontent/0020/182/289/cn20182289.jpg"] },
+            { code: '9', price: 119.99, title: 'Wool Raglan Coat', numberInStock: 10, color: ['Brown'], category: 'Jackets', srcs: ["https://www.gap.com/webcontent/0027/628/064/cn27628064.jpg", "https://www.gap.com/webcontent/0027/639/655/cn27639655.jpg", "https://www.gap.com/webcontent/0027/639/664/cn27639664.jpg", "https://www.gap.com/webcontent/0027/628/059/cn27628059.jpg"] },
+            { code: '10', price: 50.32, title: 'Corduroy Icon Jacket', numberInStock: 10, color: ['Black', 'Grey'], category: 'Jackets', srcs: ["https://www.gap.com/webcontent/0028/148/858/cn28148858.jpg", "https://www.gap.com/webcontent/0028/148/845/cn28148845.jpg", "https://www.gap.com/webcontent/0028/148/869/cn28148869.jpg", "https://www.gap.com/webcontent/0028/148/850/cn28148850.jpg"] },
+            { code: '11', price: 50.32, title: 'Nylon Puffer Jacket', numberInStock: 10, color: ['Black', 'Grey'], category: 'Jackets', srcs: ["https://www.gap.com/webcontent/0028/022/576/cn28022576.jpg"] },
+            { code: '12', price: 50.32, title: 'Denim Jacket', numberInStock: 10, color: ['Blue'], category: 'Jackets', srcs: ["https://www.gap.com/webcontent/0028/268/067/cn28268067.jpg", "https://www.gap.com/webcontent/0028/268/058/cn28268058.jpg", "https://www.gap.com/webcontent/0028/268/075/cn28268075.jpg", "https://www.gap.com/webcontent/0028/442/749/cn28442749.jpg"] },
+            { code: '13', price: 50.32, title: 'Hooded Rain Jacket', numberInStock: 10, color: ['Black', 'Grey'], category: 'Jackets', srcs: ["https://www.gap.com/webcontent/0028/488/176/cn28488176.jpg", "https://www.gap.com/webcontent/0028/488/167/cn28488167.jpg", "https://www.gap.com/webcontent/0028/488/184/cn28488184.jpg", "https://www.gap.com/webcontent/0028/588/157/cn28588157.jpg"] },
+            { code: '14', price: 50.32, title: 'Joggers', numberInStock: 10, color: ['Jeans', 'Pants', 'Black', 'Grey'], category: 'Pants', srcs: ["https://www.gap.com/webcontent/0020/702/426/cn20702426.jpg", "https://www.gap.com/webcontent/0020/702/413/cn20702413.jpg", "https://www.gap.com/webcontent/0020/703/206/cn20703206.jpg", "https://www.gap.com/webcontent/0020/702/418/cn20702418.jpg", "https://www.gap.com/webcontent/0020/702/399/cn20702399.jpg"] },
+            { code: '15', price: 50.32, title: 'Half-Zip Hoodie', numberInStock: 10, color: ['Black', 'Grey'], category: 'Sweatshirts', srcs: ["https://www.gap.com/webcontent/0028/487/633/cn28487633.jpg", "https://www.gap.com/webcontent/0028/488/122/cn28488122.jpg", "https://www.gap.com/webcontent/0028/488/157/cn28488157.jpg", "https://www.gap.com/webcontent/0028/588/605/cn28588605.jpg"] },
+            { code: '16', price: 50.32, title: 'Soft Hoodie', numberInStock: 10, color: ['Black', 'Grey'], category: 'Sweatshirts', srcs: ["https://www.gap.com/webcontent/0027/566/926/cn27566926.jpg"] },
+            { code: '17', price: 50.32, title: 'Everyday Jeans', numberInStock: 10, color: ['Jeans', 'Pants', 'Black', 'Grey'], category: 'Jeans', srcs: ["https://www.gap.com/webcontent/0019/938/991/cn19938991.jpg", "https://www.gap.com/webcontent/0019/938/970/cn19938970.jpg", "https://www.gap.com/webcontent/0019/939/035/cn19939035.jpg", "https://www.gap.com/webcontent/0019/938/999/cn19938999.jpg", "https://www.gap.com/webcontent/0019/938/949/cn19938949.jpg"] },
+            { code: '18', price: 50.32, title: 'Fleece Pants', numberInStock: 10, color: ['Sweats', 'Pants', 'Green'], category: 'Pants', srcs: ["https://www.gap.com/webcontent/0027/822/929/cn27822929.jpg", "https://www.gap.com/webcontent/0027/822/906/cn27822906.jpg", "https://www.gap.com/webcontent/0027/822/912/cn27822912.jpg", "https://www.gap.com/webcontent/0027/822/902/cn27822902.jpg", "https://www.gap.com/webcontent/0027/840/055/cn27840055.jpg"] },
+            { code: '19', price: 50.32, title: 'Fleece Quarter Zip', numberInStock: 10, color: ['White'], category: 'Sweatshirts', srcs: ["https://www.gap.com/webcontent/0027/258/853/cn27258853.jpg"] },
+            { code: '20', price: 50.32, title: 'Pleated Khakis', numberInStock: 10, color: ['Brown'], category: 'Pants', srcs: ["https://www.gap.com/webcontent/0028/276/802/cn28276802.jpg", "https://www.gap.com/webcontent/0028/276/759/cn28276759.jpg", "https://www.gap.com/webcontent/0028/276/808/cn28276808.jpg", "https://www.gap.com/webcontent/0028/327/208/cn28327208.jpg"] },
+        ]
+    },
+    reducers: {
+        addProducts: (state, action) => {
+            state.items.push(action.payload)
+        },
+    },
+})
+
+export const { addProducts } = productsSlice.actions
+
+export default productsSlice.reducer
