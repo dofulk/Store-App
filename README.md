@@ -1,3 +1,12 @@
+![image](https://user-images.githubusercontent.com/42589573/177623361-ea45015f-4bc0-414b-bbdd-b140bb2b5892.png)
+
+![image](https://user-images.githubusercontent.com/42589573/177624385-de03028e-0573-46ef-b3f8-4f2c287e7a30.png)
+
+![image](https://user-images.githubusercontent.com/42589573/177624505-955a45fa-7ad3-4b77-b544-9b60c0159f3d.png)
+
+
+/home/dominic/Pictures/Screenshot from 2022-07-06 14-01-08.png
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
