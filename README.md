@@ -11,9 +11,7 @@ A mockup of an online retail store
 
 ![image](https://user-images.githubusercontent.com/42589573/177624505-955a45fa-7ad3-4b77-b544-9b60c0159f3d.png)
 
-## Testing
 
-I wrote tests mostly for the checkout forms for this project. you can run them with npm test
 
 ### `npm start`
 
@@ -25,3 +23,7 @@ You may also see any lint errors in the console.
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### npm test
+
+Runs the tests for this project.
+I wrote tests mostly for the checkout forms for this project.
