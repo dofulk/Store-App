@@ -1,7 +1,10 @@
 # FitHub
 
+A mockup of an online retail store
 
 
+
+# Screenshots
 ![image](https://user-images.githubusercontent.com/42589573/177623361-ea45015f-4bc0-414b-bbdd-b140bb2b5892.png)
 
 ![image](https://user-images.githubusercontent.com/42589573/177624385-de03028e-0573-46ef-b3f8-4f2c287e7a30.png)
