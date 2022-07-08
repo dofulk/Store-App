@@ -23,7 +23,7 @@ You may also see any lint errors in the console.
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### npm test
+### `npm test`
 
 Runs the tests for this project.
 I wrote tests mostly for the checkout forms for this project.
