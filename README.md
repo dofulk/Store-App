@@ -11,7 +11,9 @@ A mockup of an online retail store made with react and redux.
 
 ![image](https://user-images.githubusercontent.com/42589573/177624505-955a45fa-7ad3-4b77-b544-9b60c0159f3d.png)
 
+## Features
 
+Browse 
 
 ### `npm start`
 
