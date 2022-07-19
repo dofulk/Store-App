@@ -1,6 +1,6 @@
 # FitHub
 
-A mockup of an online retail store
+A mockup of an online retail store made with react and redux.
 
 
 
