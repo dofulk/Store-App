@@ -13,7 +13,15 @@ A mockup of an online retail store made with react and redux.
 
 ## Features
 
-Browse 
+
+/*:
+
+-Browse a selection of clothing and sort by type, color and price.
+-Add to and manage items in your cart.
+-Complete Checkout and review your order.
+*/
+
+
 
 ### `npm start`
 
