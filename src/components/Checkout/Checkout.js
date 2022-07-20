@@ -20,6 +20,7 @@ const Checkout = () => {
 
     const billingCompleted = useSelector(state => state.checkout.billingCompleted)
 
+    const [orderPlaced, setOrderPlaced] = useState(false)
 
 
     const shippingInfo = useSelector(state => state.checkout.shippingInfo)
@@ -33,10 +34,11 @@ const Checkout = () => {
     return (
         <div style={{ width: '70%', display: 'flex', flexDirection: 'row' }}>
             <div style={{ width: '60%' }}>
-                <Tabs value={value} onChange={handleChange} centered>
+                <Tabs style={{marginBottom: '20px'}} value={value} onChange={handleChange} centered>
                     <Tab label="Shipping Info"></Tab>
                     <Tab label="Billing Info" disabled={!shippingCompleted}></Tab>
                     <Tab label="Place Order" disabled={!billingCompleted}></Tab>
+                    <Tab label="Confirmation" disabled={!orderPlaced}></Tab>
                 </Tabs>
                 {value === 0 && <ShippingForm
                     defaultValues={shippingInfo}
@@ -81,9 +83,18 @@ const Checkout = () => {
 
 
                 {value === 2 &&
-               <CheckoutConfirmation setValue={setValue}/>
+               <CheckoutConfirmation setValue={setValue} setOrderPlaced={setOrderPlaced}/>
                 }
-
+                {value === 3 &&
+                <div>
+                    <Typography variant="h4">
+                        Your Order is Complete!
+                    </Typography>
+                    <Typography variat="h5">
+                        Or it would be if this were a real store
+                    </Typography>
+                    </div>
+                }
 
             </div>
             <div style={{ width: '40%' }}>

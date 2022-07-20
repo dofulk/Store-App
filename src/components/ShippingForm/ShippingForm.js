@@ -182,10 +182,13 @@ const ShippingForm = ({ onSubmit, defaultValues }) => {
                         />}
                     />
                 </Grid>
-            </Grid>
-            <Button fullWidth={true} type="submit">
+                <Grid item xs={12}>
+                <Button fullWidth={false} type="submit">
                 Continue To Payment
             </Button>
+            </Grid>
+            </Grid>
+
 
         </form >
 
